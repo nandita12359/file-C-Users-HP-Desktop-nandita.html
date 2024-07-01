@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Homework Page</title>
+   <style>
+       body {
+           background-color: #f0f0f0; /* Light gray background */
+           color: #333; /* Dark text color */
+           font-family: Arial, sans-serif;
+       }
+       header {
+           background-color: magenta; /* Magenta header background */
+           color: white; /* White text */
+           padding: 10px 0;
+           text-align: center;
+       }
+       header h1 {
+           color: white; /* White heading color */
+       }
+       nav ul {
+           list-style-type: none;
+           padding: 0;
+           background-color: #333; /* Dark navigation background */
+       }
+       nav ul li {
+           display: inline;
+           margin-right: 10px;
+       }
+       nav ul li a {
+           color: white; /* White text */
+           text-decoration: none;
+           padding: 8px 16px;
+           display: inline-block;
+       }
+       nav ul li a:hover {
+           background-color: #575757; /* Dark gray hover effect */
+       }
+       section {
+           padding: 20px;
+           margin: 10px 0;
+           background-color: white; /* White background for sections */
+           border-radius: 5px;
+           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       }
+       section h2 {
+           color: blue; /* Blue heading color */
+       }
+       footer {
+           text-align: center;
+           padding: 10px 0;
+           background-color: magenta; /* Magenta footer background */
+           color: white;
+           margin-top: 20px;
+       }
+   </style>
+</head>
+<body>
+   <header>
+       <h1>Welcome to My Homework Page</h1>
+   </header>
+   <nav>
+       <ul>
+           <li><a href="#hindi">Hindi Homework</a></li>
+           <li><a href="#english">English Homework</a></li>
+           <li><a href="#science">Science Homework</a></li>
+           <li><a href="#maths">Maths Homework</a></li>
+           <li><a href="#social">Social Science Homework</a></li>
+          
+       </ul>
+   </nav>
+   <main>
+       <section id="english">
+           <h2>English Homework</h2>
+           <p>This is my English holiday homework. Click upon 'Essay' below to view.</p>
+           <a href="https://www.canva.com/design/DAGJnK2adDY/kZYtdDfjeNJN7Qq9vTgHhg/edit?utm_content=DAGJnK2adDY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Essay</a>
+       </section>
+       <section id="hindi">
+           <h2>Hindi Homework</h2>
+           <p>This is my Hindi holiday homework. Click upon 'Hindi Homework' below to view.</p>
+           <a href="https://www.canva.com/design/DAGJnJoqRp0/k_KXc0th7ZfKuPUKuhnjoA/edit?utm_content=DAGJnJoqRp0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Hindi Homework</a>
+       </section>
+       <section id="science">
+           <h2>Science Homework</h2>
+           <p>This is my science holiday homework. Click upon 'Science Homework' below to view.</p>
+           <a href="file:///C:/Users/HP/Downloads/_Unraveling%20&%20Encapsulating%20Journey%20through%20Medicine%20-%20Odisha%20(4)%20(3).pdf">Science Homework</a>
+       </section>
+       <section id="maths">
+           <h2>Maths Homework</h2>
+           <p>This is my maths homework. Click upon 'Maths Homework' below to view.</p>
+           <a href="https://www.canva.com/design/DAGIrm92gBs/YHsEkD53bmBHeYb3IhS_Gg/edit?utm_content=DAGIrm92gBs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Maths Homework</a>
+       </section>
+       <section id="social">
+           <h2>Social Science Homework</h2>
+           <p>This is my social science homework. Click upon 'SSC Homework' below to view.</p>
+           <a href="https://www.canva.com/design/DAGIk8kM5-w/s0UXpAiRao2iGw8dfQ1OvA/edit?utm_content=DAGIk8kM5-w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">SSC Homework</a>
+       </section>
+   </main>
+   <footer>
+       <p>&copy; 2024 NANDITA AGRAWAL of VIII-C. Thank You!</p>
+   </footer>
+</body>
+</html>
